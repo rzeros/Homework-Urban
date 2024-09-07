@@ -7,7 +7,6 @@ class House:
         print(F'Жилой комлекс {name}, этажей в комплексе: {number_of_floors}')
 
     def go_to(self, new_floor):
-        new_floor = new_floor
         if 1 <= new_floor <= self.number_of_floors:
             print(new_floor)
         else:
