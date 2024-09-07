@@ -4,6 +4,7 @@ class House:
     def __init__(self, name, number_of_floors):
         self.name = name
         self.number_of_floors = number_of_floors
+        print(F'Жилой комлекс {name}, этажей в комплексе: {number_of_floors}')
 
     def go_to(self, new_floor):
         new_floor = new_floor
